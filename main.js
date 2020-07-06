@@ -28,7 +28,7 @@ function displayResult(weather) {
 
     //Get date
     let today = new Date();
-    let date ='Current Date: ' +today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+', '+ 'Current Time:' +today.getHours()+':'+today.getMinutes()+ ':'+ today.getSeconds();
+    let date ='Current Date: ' +today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     let dateDisplay = document.querySelector('.location .date');
     dateDisplay.innerText = `${date}`;
 
