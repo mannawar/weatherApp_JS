@@ -46,5 +46,5 @@ function displayResult(weather) {
 
     //Get high low temperature
     const hilow = document.querySelector('.current .hi-low');
-    hilow.innerHTML = `Max: ${weather.main.temp_max}<span>°c</span>, Min: ${weather.main.temp_min}<span>°c</span>`;
+    hilow.innerText = `Max: ${weather.main.temp_max}°c, Min: ${weather.main.temp_min}°c`;
 }

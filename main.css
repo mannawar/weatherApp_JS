@@ -86,19 +86,19 @@ main {
     font-style: italic;
     margin-bottom: 15px;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
-  }
+}
 
-  .current .feels {
+.current .feels {
     color: #FFF;
     font-style: italic;
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 4px rgba(128, 11, 11, 0.4);
-  }
-
-  .current .hi-low {
+}
+  
+.current .hi-low {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    text-shadow: 0px 4px rgba(0, 0, 0, 0.2);
-  }
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
